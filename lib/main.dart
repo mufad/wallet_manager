@@ -50,7 +50,7 @@ class MyTabsState extends State<MyTabs> with SingleTickerProviderStateMixin {
             controller: controller,
             children: <Widget>[
               new Chart.Chart(),
-              new Expenses.Expenses(),
+              new Expenses.Expense(),
               new Income.Income()
             ]
         )
